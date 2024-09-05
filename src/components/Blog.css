@@ -1,0 +1,58 @@
+.blogContainer{
+    background-image: url('C:\Users\hp\aspcrud-frontend\src\Images\cofeeback1.jpg'); /* Set the path to your background image */
+    /* background-size: cover; */
+    background-position: center;
+    height: 70vh;
+    display: flex;
+  justify-content: flex-end; 
+  background-size: 100% auto
+  /* align-items: center; */
+}
+.blogContent{
+    padding: 200px;
+    margin-right: -80px;
+    margin-top: -80px;
+    /* max-width: 350px; */
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-right: 100px;
+
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-right: 100px;
+
+  }
+  
+  .button-row {
+    display: flex;
+    }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 50px;
+  }
+  
+  .btn.alt {
+    background-color: #4caf50; /* Different background color for the second button */
+ }
+  
+  .btn:hover {
+    background-color: #f57c00;
+  }
+  
+  .btn.alt:hover {
+    background-color: #388e3c; /* Hover color for the second button */
+  }

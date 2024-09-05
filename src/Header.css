@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure space between logo and hamburger */
+    color: white;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
+
+.headerRight {
+    flex: 0.4;
+}
+
+.headerRight h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.headerRight h1 span {
+    color: orange;
+}
+
+.headerLeft {
+    display: flex;
+    flex: 0.6;
+    align-items: center;
+    justify-content: space-evenly; /* Distribute space evenly on larger screens */
+    transition: max-height 0.3s ease;
+}
+
+.headerLeft a h4 {
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+.headerLeft a h4:hover {
+    transform: scale(1.09);
+    background-color: orange;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.headerrightBtn {
+    background-color: orange;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.react-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px; /* Position from the right edge */
+}
+
+/* Mobile and Tablet view */
+@media screen and (max-width: 800px) {
+    .react-icon {
+        display: block;
+    }
+
+    .headerLeft {
+        flex-direction: column; /* Stack items vertically */
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: black;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .headerLeft.open {
+        max-height: 300px; /* Adjust based on your content */
+    }
+
+    .headerLeft a h4 {
+        padding: 10px;
+        text-align: center;
+        width: 100%; /* Take full width on mobile and tablet view */
+    }
+
+    .headerrightBtn {
+        margin: 10px 0;
+        text-align: center;
+        width: 100%; /* Take full width on mobile and tablet view */
+    }
+}
+
+/* Larger screens */
+@media screen and (min-width: 801px) {
+    .react-icon {
+        display: none; /* Hide hamburger menu on larger screens */
+    }
+
+    .headerLeft {
+        justify-content: space-evenly; /* Distribute space evenly on larger screens */
+    }
+}

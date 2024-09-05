@@ -1,0 +1,63 @@
+.fullContent{
+    height: 80vh;
+    margin-top: 30px;
+    height: 70vh;
+}
+.coffee-name-container {
+    display: flex;
+    justify-content: space-between;
+ }
+ .coffee-name-container,h1,p  {
+    text-align: center;
+    margin-top: 15px;
+ }
+ .coffee-name-container,p{
+    font-size: 20px;
+    
+ }
+ .coffee-name-container,h1{
+  color: black;
+ }
+ .half-container {
+    margin-top: 30px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 30px; /* Adjust border radius */
+    /* background-color: black;  */
+    color: white;
+    max-width: 35%; /* Adjust the maximum width as needed */
+    max-height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+  }
+  .amount{
+    margin-left: 50px;
+    margin-top: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: black;
+
+  }
+   .half-container + .half-container {
+    margin-left: 20px; /* Adjust the margin between halves */
+  }
+  
+  .icon {
+    width: 40px; /* Adjust icon size */
+    height: 40px; /* Adjust icon size */
+    margin-left: 70px; /* Adjust the space between icon and text */
+    margin-right: 30px; /* Adjust the space between icon and text */
+  }
+  
+  /* Additional styles for headings */
+  .headingfrst,
+  .headingsecnd {
+    margin: 0;
+    color: black;
+  }
+  

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
+.Top-Bacimg {
+    background-image: url('C:/Users/hp/aspcrud-frontend/src/Images/cofeeback22.jpg'); /* Set the path to your background image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Center the background image */
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    position: relative;
+}
+
+.heading {
+    font-family: 'Lobster Two', cursive;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+    text-align: right;
+}
+
+.frstheading {
+    font-size: 50px;
+    font-family: 'Protest Revolution', sans-serif;
+    margin-top: 30px;
+}
+
+.frstheading span {
+    color: orangered;
+}
+
+.ordrbtn {
+    margin-top: 30px;
+    background-color: maroon;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px !important;
+    width: 12em;
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 768px) {
+    .content {
+        right: 10%;
+        text-align: center;
+        top: 40%;
+    }
+
+    .frstheading {
+        font-size: 40px;
+    }
+
+    .ordrbtn {
+        width: 10em;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .headerRight {
+        margin-left: 30px; /* Adds left margin to Coffeeshop text */
+    }
+
+    .react-icon {
+        margin-right: 30px; /* Adds right margin to hamburger menu */
+    }
+
+    .content {
+        right: 5%;
+        text-align: center;
+        top: 30%;
+    }
+
+    .frstheading {
+        font-size: 30px;
+    }
+
+    .ordrbtn {
+        width: 8em;
+        padding: 6px 12px;
+    }
+}

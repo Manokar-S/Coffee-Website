@@ -1,0 +1,6 @@
+.productCoatiner{
+    height: 80vh;
+}
+.ReservatioForm{
+    grid-template-columns: repeat(3,1fr);
+}

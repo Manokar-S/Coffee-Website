@@ -1,0 +1,82 @@
+
+.coffeecontainer{
+    background-color: black;
+    height: 70vh;
+}
+.content_ h2 p{
+  margin-top: 50px;
+}
+.contentalign {
+    text-align: center;
+    color: white;
+  }
+  .imgcontent{
+    display: flex;
+    /* justify-content: space-evenly; */
+  }
+  .frstImages{
+    display: flex;
+    flex-direction: column;
+    margin-left: 295px;
+  }
+  .coffee-image {
+    width: 330px;
+    height: 200px; /* adjust this value as needed */
+
+    flex-grow: 1;
+    margin-bottom: 10px; /* adjust this value as needed */
+    border-radius: 0;
+}
+.secondImage{
+  margin-left: 10px;
+
+}
+.second-image{
+
+  width: 330px;
+  height: 410px;
+  border-radius: 0;
+}
+.thirdImage{
+  margin-left: 100px;
+}
+.third-image{
+  width: 220px;
+  height: 200px;
+  border-radius: 0;
+  margin-left: 10px; /* adjust this value as needed */
+
+}
+.lastImages{
+  margin-left: -102px;
+}
+.fourth-image{
+  margin-top: 10px; /* adjust this value as needed */
+  width: 450px;
+  height: 200px;
+  border-radius: 0;
+  margin-left: 110px
+}
+  /* .imgcontent{ */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* width: 100%; */
+    /* white-space: nowrap; Prevent wrapping */
+    /* margin-top: 100px; Adjust margin top as needed */
+  /* } */
+  /* #coffee-image {
+    margin-top: 70px;
+    width: 350px;
+    height: 250px;
+    display: inline-block; /* Display images inline */
+    /* margin-right: 10px;  */
+    /* animation: scrollImages 4s linear infinite; Adjust animation duration and timing function as needed */
+  /* }  */
+  /* @keyframes scrollImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+} */

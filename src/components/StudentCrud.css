@@ -1,0 +1,46 @@
+/* styles.css */
+
+.container {
+    text-align: center;
+    height: 10vh;
+  }
+  
+  .form-container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .form-container label {
+    margin-right: 10px;
+  }
+  
+  .form-container input {
+    width: 200px;
+  }
+  
+  .table-container {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  .table thead {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .table button {
+    margin-right: 5px;
+  }
+  
